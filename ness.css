@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.new{
+    width: 100%;
+    height: 200vh;
+}
+
+.new>.huh{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(96, 93, 93) ;
+    text-align: center;
+    position: sticky;
+    top: 0px auto;
+}
+
+ ul > li >a:hover{
+    transform: scale(1.3);
+    transition: 0.5s ease-in-out;
+    background-color: rgb(174, 149, 153);
+    border-radius: 20px;
+    color: rgb(251, 251, 251);
+    padding: 10px 20px;
+}
+
+.new>nav{
+    position: sticky;
+    top: 0;
+}
+
+
+
+
+.new>.d-1{
+    width: 1000px;
+    height: 500px;
+    /* background-color: aqua; */
+    margin-top: 10px;
+    margin-left: 300px;
+}
+
+
+
+
+
+ .new>.car>.tecd{
+    width: 100%;
+    height: 500px;
+    /* background-color: aqua; */
+    margin-top: 40px;
+} 
+
+.new>.dem{
+  width: 100%;
+  height: 600px;
+  background-color: rgb(96, 93, 93);
+}
+
+.category-slider-section {
+    text-align: center;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.category-slider-section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.slider-container {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.slider-track-wrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
+.slider-track {
+    display: flex;
+    transition: transform 0.3s ease;
+}
+
+.category-slide {
+    min-width: 300px;
+    text-align: center;
+    padding: 10px;
+}
+
+.category-slide img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.category-slide h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.slide-btn {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    background: white;
+    border: none;
+    font-size: 32px;
+    padding: 5px 12px;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.prev { left: -90px; }
+.next { right: -90px; }
+
+.slide-btn:hover {
+    background: #eaf9f1;
+}

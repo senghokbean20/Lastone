@@ -1,0 +1,149 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-family: serif;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.contain{
+    width: 100%;
+    height: 200vh;
+    
+}
+.contain>.text{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(96, 93, 93);
+    text-align: center;
+    
+}
+
+ ul > li >a:hover{
+    transform: scale(1.3);
+    transition: 0.5s ease-in-out;
+    background-color: rgb(96, 93, 93);
+    border-radius: 20px;
+    color: rgb(251, 251, 251);
+    padding: 10px 20px;
+}
+
+
+.contain> nav{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(96, 93, 93);
+    /* position: sticky; */
+    /* top: 0;
+    position: fixed; */
+    
+}
+
+
+/* BEST SELLER dropdown wrapper */
+.best-seller-wrap {
+    position: relative;
+}
+
+/* The dropdown container (HIDDEN by default) */
+.best-dropdown {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 1330px;
+    height: 400px;
+    background: rgb(164, 146, 149);
+    border: 1px solid #ddd;
+    padding: 20px;
+    display: none;
+    gap: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    z-index: 999;
+    
+}
+
+/* Show dropdown on hover */
+.best-seller-wrap:hover .best-dropdown {
+    display: flex;
+    
+}
+
+/* Product cards inside dropdown */
+.best-dropdown .product-card {
+    width: 300px;
+    text-align: center;
+}
+
+.best-dropdown .product-card img {
+    width: 130px;
+    height: auto;
+}
+
+.best-dropdown .product-card p {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #222;
+}
+
+
+
+.contain>.about{
+    width: 100%;
+    height: 1000px;
+    /* background-color: bisque; */
+    background-color:rgb(96, 93, 93);
+}
+
+.contain>.more{
+    width: 100%;
+    height: 1200px;
+    background-color: rgb(125, 117, 117);
+}
+
+.contain>footer{
+    width: 100%;
+    height: 150px;
+    background-color:rgb(50, 44, 44);
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    
+}
+
+.contain> footer >.big{
+    width: 30%;
+}
+
+.contain>footer>.big>h3{
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+}
+
+.contain>footer>.kiss{
+    width: 50%;
+    
+    
+}
+
+.contain>footer>.kiss>ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    gap: 5px;
+}
+
+.contain>footer>.kiss>ul>li{
+    font-size: 20px;
+    color: rgb(8, 8, 8);
+}
+
+
+
+
+

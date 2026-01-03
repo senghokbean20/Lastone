@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.head{
+    width: 100%;
+    height: 200vh;
+}
+
+.head>.huh{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(96, 93, 93) ;
+    text-align: center;
+    position: sticky;
+    top: 0px auto;
+}
+
+ ul > li >a:hover{
+    transform: scale(1.3);
+    transition: 0.5s ease-in-out;
+    background-color: rgb(187, 156, 161);
+    border-radius: 20px;
+    color: rgb(251, 251, 251);
+    padding: 10px 20px;
+}
+
+.head>nav{
+    position: sticky;
+    top: 0;
+}
+
+.head>.teck{
+    width: 100%;
+    height: 1500px;
+    background-color: rgb(251, 251, 251);
+}
+
+.head>.teck>.tic>.pic>.photo{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.head>.teck>.tic>.pic>.photo>img{
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+    /* border: 2px solid black; */
+}
+
+.head>footer>.last{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(93, 93, 93);
+}
+
